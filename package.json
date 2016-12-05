@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Workflow tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nightwatch $NODE_DEBUG_OPTION -e firefox_os_x,chrome_os_x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@androidworks.com:ytest"
+  },
+  "author": "Janusz",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.16.0",
+    "nightwatch": "git+https://git@github.com/jk171505/nightwatch.git#junit-classname",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "saucelabs": "^1.3.0"
+  }
+}
