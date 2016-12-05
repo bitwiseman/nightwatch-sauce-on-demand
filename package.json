@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.16.0",
-    "nightwatch": "git+https://git@github.com/jk171505/nightwatch.git#junit-classname",
+    "nightwatch": "git+https://git@github.com/bitwiseman/nightwatch.git#junit-classname",
     "q": "^1.4.1"
   },
   "devDependencies": {
