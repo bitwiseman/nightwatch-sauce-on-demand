@@ -18,6 +18,7 @@ node {
                     sh "./node_modules/.bin/nightwatch -e ${platforms} || true"
                 }
 
+                sh 'rm reports/CHROME*'
                 junit 'reports/*.xml'
 
                 step([$class: 'SauceOnDemandTestPublisher'])
