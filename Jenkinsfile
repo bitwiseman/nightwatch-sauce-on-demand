@@ -18,7 +18,7 @@ node {
                     sh "./node_modules/.bin/nightwatch -e ${platforms} || true"
                 }
 
-                junit 'reports/**'
+                junit 'reports/*.xml'
 
                 step([$class: 'SauceOnDemandTestPublisher'])
             }
