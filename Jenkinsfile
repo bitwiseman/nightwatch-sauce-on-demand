@@ -7,7 +7,7 @@ node {
     }
 
     stage ("Test") {
-        sauce('628965b1-c7fb-489c-a112-c5e9d1ba4121') {
+        sauce('f0a6b8ad-ce30-4cba-bf9a-95afbc470a8a') {
             sauceconnect(options: '', useGeneratedTunnelIdentifier: false, verboseLogging: false) {
                 def platforms = [
                     'firefox_os_x',
