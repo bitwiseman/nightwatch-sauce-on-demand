@@ -6,7 +6,7 @@ module.exports = {
     client.login(done);
   },
 
-  'Campaign Smoke': function (client) {
+  'CampaignSmoke': function (client) {
     var DSP = client.page.DSP();
     var AdvertiserPage = client.page.AdvertiserPage();
 
