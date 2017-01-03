@@ -18,7 +18,9 @@ node {
                     sh "./node_modules/.bin/nightwatch -e ${platforms} || true"
                 }
 
-                sh 'rm reports/CHROME*'
+                sh '''
+                cp reports/CHROME*.xml reports/a.xml
+                '''
                 junit 'reports/*.xml'
 
                 step([$class: 'SauceOnDemandTestPublisher'])
