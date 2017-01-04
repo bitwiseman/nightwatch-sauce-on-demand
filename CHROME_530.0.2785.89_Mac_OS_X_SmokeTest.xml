@@ -4,10 +4,10 @@
             tests="1">
 
   <testsuite name="SmokeTest"
-    errors="0" failures="1" hostname="" id="" package="CHROME_530_0_2785_89.a.SmokeTest" skipped="0"
+    errors="0" failures="1" hostname="" id="" package="SmokeTest2" skipped="0"
     tests="1" time="55.96" timestamp="Tue, 03 Jan 2017 23:38:07 GMT">
 
-    <testcase name="CampaignSmoke" classname="CHROME_530_0_2785_89.a.SmokeTest" time="55.96" assertions="4">
+    <testcase name="CampaignSmoke" classname="CHROME_532_0_2785_89.a.SmokeTest" time="55.96" assertions="4">
       <failure message="Timed out while waiting"></failure>
     </testcase>
   </testsuite>
