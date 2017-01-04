@@ -4,7 +4,7 @@
             tests="1">
 
   <testsuite name="SmokeTest"
-    errors="0" failures="1" hostname="" id="CHROME_533_0_2785_89.a.SmokeTest" package="SmokeTest" skipped="0"
+    errors="0" failures="1" hostname="" id="" package="CHROME_531_0_2785_89.a" skipped="0"
     tests="1" time="55.96" timestamp="Tue, 03 Jan 2017 23:38:07 GMT">
 
     <testcase name="CampaignSmoke" classname="CHROME_533_0_2785_89.a.SmokeTest" time="55.96" assertions="4">
