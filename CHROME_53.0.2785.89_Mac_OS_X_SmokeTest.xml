@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
+<testsuites errors="0"
             failures="1"
             tests="1">
 
   <testsuite name="SmokeTest"
-    errors="2" failures="1" hostname="" id="" package="SmokeTest" skipped="0"
+    errors="0" failures="1" hostname="" id="" package="SmokeTest" skipped="0"
     tests="1" time="55.96" timestamp="Tue, 03 Jan 2017 23:38:07 GMT">
 
     <testcase name="CampaignSmoke" classname="CHROME_53_0_2785_89.a.SmokeTest" time="55.96" assertions="4">
-      <failure message="Timed out while waiting for element &lt;Section[name=login],Element[name=@submitButton]&gt; to be removed for 1000 milliseconds."></failure>
+      <failure message="Timed out while waiting"></failure>
     </testcase>
   </testsuite>
 </testsuites>

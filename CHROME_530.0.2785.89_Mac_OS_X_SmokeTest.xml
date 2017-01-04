@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
+<testsuites errors="0"
             failures="1"
             tests="1">
 
   <testsuite name="SmokeTest"
-    errors="2" failures="1" hostname="" id="" package="SmokeTest" skipped="0"
+    errors="0" failures="1" hostname="" id="" package="SmokeTest" skipped="0"
     tests="1" time="55.96" timestamp="Tue, 03 Jan 2017 23:38:07 GMT">
 
     <testcase name="CampaignSmoke" classname="CHROME_530_0_2785_89.a.SmokeTest" time="55.96" assertions="4">
-
-
-
-      <failure message="Timed out while waiting for element &lt;Section[name=login],Element[name=@submitButton]&gt; to be removed for 1000 milliseconds.">    at Section.signIn (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/page_objects/DSP.js:28:14)
-    at Object.exports.command (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/custom_commands/login.js:4:32)</failure>
-
-      <failure message="Expected element &lt;Section[name=header],Element[name=@searchResults]&gt; to be visible in 10000ms - element was not found">    at Page.getAdvertiserPageByName (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/page_objects/DSP.js:57:17)
-    at Object.CampaignSmoke (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/tests/SmokeTest.js:13:9)</failure>
-
-
+      <failure message="Timed out while waiting"></failure>
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;Section[name=header],Element[name=@searchField]&quot; using: recursion
-    at Section.setValue (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Page.getAdvertiserPageByName (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/page_objects/DSP.js:55:10)
-    at Object.CampaignSmoke (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/tests/SmokeTest.js:13:9)
-    at Module.call (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:796:13)
-    at /Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:604:44
-    at runSingle (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;Section[name=header],Element[name=@searchField]&quot; using: recursion
-    at Section.click (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Page.getAdvertiserPageByName (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/page_objects/DSP.js:56:10)
-    at Object.CampaignSmoke (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/tests/SmokeTest.js:13:9)
-    at Module.call (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:796:13)
-    at /Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:604:44
-    at runSingle (/Users/bitwiseman/jenkins/agents/osx_mbp/workspace/nightwatch-jk_master-FFQ6NZQ5PHSFBJUNN6HYTNQUFLK4PIJXJKCNY3T2W2CXKF5PFVEA/node_modules/q/q.js:137:13)
-      </system-err>
-
-
   </testsuite>
 </testsuites>
